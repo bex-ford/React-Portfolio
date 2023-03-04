@@ -12,6 +12,13 @@
 
 nav {
     background-color: var(--primaryclr);
+    
+}
+.nav-link {
+  color: var(--primarylightclr);
+  margin-right: 20px;
+  float:right;
+
 }
 
 body {

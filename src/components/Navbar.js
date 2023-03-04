@@ -10,33 +10,33 @@ function Navbar() {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="/">
+            <a class="nav-link" href="/home">
               Home <span class="sr-only"></span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/#about">
+            <a class="nav-link" href="/about">
               About
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/#skills">
+            <a class="nav-link" href="/skills">
               Skills
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="/#work">
+            <a class="nav-link" href="/work">
               Work
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="/#contact">
+            <a class="nav-link" href="/contact">
               Contact
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="/src/assets/BF CV.pdf">
-              Resume
+            <a class="nav-link" href="/src/assets/bfcv.pdf"  rel="noopener" target="_blank">
+              CV
             </a>
           </li>
         </ul>
