@@ -12,7 +12,7 @@ function Work() {
   return (
     <div style={mystyle} className="card-deck">
       <div className="card col-sm-12 col-md-4 col-lg-4">
-        <h2 style={{fontWeight: "bold", textDecoration: "underline"}} >Projects</h2>
+        <h2>Projects</h2>
         <img
           src="/src/assets/justveggie.png"
           class="card-img-top custom-card-img"

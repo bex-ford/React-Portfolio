@@ -10,12 +10,12 @@ const mystyle = {
 
 function About() {
   return (
-    <section style={mystyle} class="page-section" id="about">
-      <h2 style={{fontWeight: "bold", textDecoration: "underline"}}>About</h2>
+    <div style={mystyle} className="d-flex flex-column p-10">
+      <h2 style={{fontWeight: "bold"}}>About</h2>
       <div>
-        <p style={{fontSize: "1.5rem"}}> <code>Hey. I'm Bex, nice to meet you! Please take a look around.</code></p>
+        <p style={{fontSize: "1.5rem"}}>Hey. It's nice to meet you! Please take a look around.</p>
       </div>
-    </section>
+  </div>
   );
 }
 export default About;
