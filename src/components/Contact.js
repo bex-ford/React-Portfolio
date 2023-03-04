@@ -1,11 +1,11 @@
 import React from "react";
 
 const mystyle = {
-  backgroundColor: "#C0A392",
-  color: "#3D2F2F",
+  backgroundColor: "#3D2F2F",
+  color: "#C0A392",
   textAlign: "center",
   padding: "20px",
-  };
+};
 
 function Contact() {
   return (

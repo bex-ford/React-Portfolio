@@ -1,6 +1,6 @@
 import React from "react";
 import bf from "../assets/bf.jpg";
-import cv from "../assets/cv.pdf";
+// import cv from "../assets/cv.pdf";
 // import ShareLink from 'react-linkedin-share-link';
 
 const mystyle = {
@@ -8,7 +8,7 @@ const mystyle = {
   color: "#3D2F2F",
   padding: "10px",
   fontWeight: "bold",
-  fontFamily: "courier",
+  fontFamily: "Helvetica Neue",
 };
 
 function Navbar() {
@@ -63,7 +63,7 @@ function Navbar() {
             <a
               style={mystyle}
               class="nav-link"
-              href={cv}
+              href= "cv"
               rel="norefferer"
               target="_blank"
             >
