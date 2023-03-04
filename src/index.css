@@ -14,6 +14,11 @@ nav {
     background-color: var(--primaryclr);
     
 }
+
+.navbar {
+  background-color: var(--primaryclr);
+}
+
 .nav-link {
   color: var(--primarylightclr);
   margin-right: 20px;
@@ -29,5 +34,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; 
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  
 }
 
