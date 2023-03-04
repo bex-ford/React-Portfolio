@@ -6,6 +6,7 @@ const mystyle = {
   paddingLeft: "250px",
   paddingRight: "250px",
   
+  
 };
 
 function About() {

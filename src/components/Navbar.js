@@ -1,11 +1,14 @@
 import React from "react";
 import bf from "../assets/bf.jpg";
+import cv from "../assets/cv.pdf";
+// import ShareLink from 'react-linkedin-share-link';
 
 const mystyle = {
   backgroundColor: "#C0A392",
   color: "#3D2F2F",
   padding: "10px",
   fontWeight: "bold",
+  fontFamily: "courier",
 };
 
 function Navbar() {
@@ -25,7 +28,7 @@ function Navbar() {
       <div style={mystyle} class="collapse navbar-collapse" id="navbarNav">
         <ul style={mystyle} class="navbar-nav">
           <img
-            style={{ width: "80px", borderRadius: "50%" }}
+            style={{ width: "120px", height: "130px", borderRadius: "50%" }}
             src={bf}
             alt="persons profile"
             class="custom-img"
@@ -33,35 +36,35 @@ function Navbar() {
 
           <li class="nav-item">
             <a style={mystyle} class="nav-link" href="/home">
-              Home <span class="sr-only"></span>
+              HOME <span class="sr-only"></span>
             </a>
           </li>
           <li class="nav-item">
             <a style={mystyle} class="nav-link" href="about">
-              About
+              ABOUT
             </a>
           </li>
           <li class="nav-item">
             <a style={mystyle} class="nav-link" href="/skills">
-              Skills
+              SKILLS
             </a>
           </li>
           <li class="nav-item">
             <a style={mystyle} class="nav-link" href="/work">
-              Work
+              WORK
             </a>
           </li>
           <li class="nav-item">
             <a style={mystyle} class="nav-link" href="/contact">
-              Contact
+              CONTACT
             </a>
           </li>
           <li class="nav-item">
             <a
               style={mystyle}
               class="nav-link"
-              href="/src/assets/bfcv.pdf"
-              rel="noopener"
+              href={cv}
+              rel="norefferer"
               target="_blank"
             >
               CV
@@ -86,7 +89,7 @@ function Navbar() {
         </a>
         <a
           style={{ mystyle, padding: "10px" }}
-          href="/https://github.com/bex-ford"
+          href="/https://www.github.com/bex-ford"
           target="_blank"
         >
           <svg

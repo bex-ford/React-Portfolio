@@ -1,25 +1,29 @@
 import React from "react";
+import justveggie from "../assets/justveggie.png";
 
 const mystyle = {
   backgroundColor: "#C0A392",
   color: "#3D2F2F",
   paddingLeft: "250px",
   paddingRight: "250px",
-  
 };
 
 function Work() {
   return (
     <div style={mystyle} className="card-deck">
-      <div className="card col-sm-12 col-md-4 col-lg-4">
-        <h2>Projects</h2>
+      <div
+        style={{ display: "inline" }}
+        className="card col-sm-12 col-md-3 col-lg-3"
+      >
+        <h2 style={{fontWeight: "bold"}}>Projects</h2>
+        <h5 className="card-title">JustVeggie</h5>
         <img
-          src="/src/assets/justveggie.png"
+          src={justveggie}
           class="card-img-top custom-card-img"
           alt="JustVeggie"
         />
         <div className="">
-          <h5 className="card-title">JustVeggie</h5>
+       
           <p className="card-text">
             <p>
               <a
@@ -47,7 +51,6 @@ function Work() {
         </div>
       </div>
     </div>
-    
   );
 }
 export default Work;

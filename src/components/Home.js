@@ -7,7 +7,7 @@ const mystyle = {
 };
 function Home() {
   return (
-    <div style={mystyle} className="d-flex flex-column p-5">
+    <div style={mystyle} className="d-flex flex-column p-2">
       <div style={mystyle}>
         <h1
           style={{
@@ -18,7 +18,7 @@ function Home() {
           }}
           className="display-4"
         >
-          Hey, I'm Bex Ford
+          Hi, I'm Bex Ford
         </h1>
         <p
           style={{ fontSize: "5.5rem", fontWeight: "3rem", color: "#e5D3B3" }}
@@ -53,7 +53,7 @@ function Home() {
           href="/#work"
           class="navbar-brand"
         >
-          PROJECTS
+          VIEW PROJECT
         </a>
         <button
           class="navbar-toggler"
