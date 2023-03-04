@@ -1,5 +1,5 @@
 import React from "react";
-import justveggie from "../assets/justveggie.png";
+import justveggie from "../assets/landingpage.png";
 
 const mystyle = {
   backgroundColor: "#C0A392",
@@ -13,58 +13,48 @@ function Work() {
   return (
     <div style={mystyle} className="card-deck">
       <div
-        style={{ display: "inline" }}
-        className="card col-sm-12 col-md-1 col-lg-12"
+        className=" col-sm-12 col-md-1 col-lg-12"
       >
         <h2 style={{ fontWeight: "bold", fontSize:"40px", textAlign:"center" }}>Projects</h2>
+        <div className="btn-group">
         <a
-          style={{
-            backgroundColor: "#e5D3B3",
-            padding: "20px",
-            // display: "inline-flex",
-            color: "#3D2F2F",
-            fontSize: "15px",
-            fontWeight: "bold",
-            fontFamily: "Helvetica Neue",
-            borderRadius: "5px",
-          }}
+          // style={{
+          //   backgroundColor: "#e5D3B3",
+          //   padding: "20px",
+          //   // display: "inline-flex",
+          //   color: "#3D2F2F",
+          //   fontSize: "15px",
+          //   fontWeight: "bold",
+          //   fontFamily: "Helvetica Neue",
+          //   borderRadius: "5px",
+          // }}
           href="https://bex-ford.github.io/project-1/"
-          class="navbar-brand"
+          className="btn work-links"
         >
           CASE STUDY
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        ></button>
-             <a
-          style={{
-            backgroundColor: "#e5D3B3",
-            padding: "20px",
-            // display: "inline-flex",
-            color: "#3D2F2F",
-            fontSize: "15px",
-            fontWeight: "bold",
-            fontFamily: "Helvetica Neue",
-            borderRadius: "5px",
-          }}
+        <a
+          // style={{
+          //   backgroundColor: "#e5D3B3",
+          //   padding: "20px",
+          //   // display: "inline-flex",
+          //   color: "#3D2F2F",
+          //   fontSize: "15px",
+          //   fontWeight: "bold",
+          //   fontFamily: "Helvetica Neue",
+          //   borderRadius: "5px",
+          // }}
           href="https://bex-ford.github.io/project-1/"
-          class="navbar-brand"
+          className="btn work-links"
         >
           GITHUB
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        ></button>
+        </div>
+        
         <h5 style={{ fontSize: "20px", textAlign:"center"}}className="card-title">JustVeggie is a vegetarian, gluten-free application created for users with these specific needs.  </h5>
         <img
           src={justveggie}
-          class="card-img-top custom-card-img"
+          className="card-img-top custom-card-img"
           alt="JustVeggie"
         />
               

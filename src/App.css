@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 } */
+
+#navbarNav {
+  justify-content: space-between;
+  align-items: normal;
+}
+
+.card-deck .work-links {
+  background-color: #e5D3B3;
+  color: #3D2F2F;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.card-deck .work-links:hover {
+  background-color: #f5e7cf;
+}
+
+.card-deck .btn-group {
+  margin-left: 35%;
+}
+
+.card-deck .card-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.skills-images {
+  display: flex;
+  justify-content: space-between;
+}
+.skills-images svg {
+  max-width: 100px;
+}
