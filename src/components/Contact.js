@@ -1,13 +1,20 @@
 import React from "react";
 
+const mystyle = {
+  backgroundColor: "#C0A392",
+  color: "#3D2F2F",
+  padding: "0",
+  
+};
+
 function Contact() {
   return (
-    <section className="page-section contact" id="contact">
+    <section style={mystyle} className="page-section contact" id="contact">
       <h2>Contact</h2>
       <p>Contact number: 07557361414</p>
       <p>Email: becky782@hotmail.co.uk</p>
       <footer className="footer">
-        <h6>Designed & Built by Bex Ford 2023</h6>
+        <h6 style={mystyle}>Designed & Built by Bex Ford 2023</h6>
         <a
           href="/https://www.linkedin.com/in/bex-ford-40a9331b6/"
           target="_blank"

@@ -1,8 +1,15 @@
 import React from "react";
 
+const mystyle = {
+  backgroundColor: "#C0A392",
+  color: "#3D2F2F",
+  padding: "0",
+  
+};
+
 function Work() {
   return (
-    <div className="card-deck">
+    <div style={mystyle} className="card-deck">
       <div className="card col-sm-12 col-md-4 col-lg-4">
         <h2>Projects</h2>
         <img
@@ -39,6 +46,7 @@ function Work() {
         </div>
       </div>
     </div>
+    
   );
 }
 export default Work;
