@@ -3,9 +3,9 @@ import React from "react";
 const mystyle = {
     backgroundColor: "#C0A392",
     color: "#3D2F2F",
-    fontStyle: "bold",
-    padding: "0px",
-    
+    fontWeight: "bold",
+  
+
   };
 function Navbar() {
   return (
@@ -23,7 +23,7 @@ function Navbar() {
       </button>
       <div style={mystyle} class="collapse navbar-collapse" id="navbarNav">
         <ul style={mystyle} class="navbar-nav">
-          <li style={mystyle} class="nav-item active">
+          <li class="nav-item">
             <a style={mystyle} class="nav-link" href="/home">
               Home <span class="sr-only"></span>
             </a>

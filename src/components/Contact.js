@@ -3,18 +3,18 @@ import React from "react";
 const mystyle = {
   backgroundColor: "#C0A392",
   color: "#3D2F2F",
-  padding: "0",
-  
+  textAlign: "center",
+   
 };
 
 function Contact() {
   return (
     <section style={mystyle} className="page-section contact" id="contact">
-      <h2>Contact</h2>
+      <h2>contact</h2>
       <p>Contact number: 07557361414</p>
       <p>Email: becky782@hotmail.co.uk</p>
       <footer className="footer">
-        <h6 style={mystyle}>Designed & Built by Bex Ford 2023</h6>
+        <h6>copyright &copy; Bex Ford 2023</h6>
         <a
           href="/https://www.linkedin.com/in/bex-ford-40a9331b6/"
           target="_blank"
