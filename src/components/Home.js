@@ -3,7 +3,7 @@ import React from "react";
 const mystyle = {
   backgroundColor: "#C0A392",
   color: "#3D2F2F",
-  padding: "250px",
+  padding: "300px",
 };
 function Home() {
   return (
@@ -30,7 +30,7 @@ function Home() {
           }}
           className="lead"
         >
-          front-end web developer
+          Front-End Web Developer
         </p>
       </div>
     </div>

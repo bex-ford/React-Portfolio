@@ -1,12 +1,13 @@
 import React from "react";
 import bf from "../assets/bf.jpg";
 import cv from "../assets/cv.pdf";
-// import ShareLink from 'react-linkedin-share-link';
+
 
 const mystyle = {
-  backgroundColor: "#C0A392",
-  color: "#3D2F2F",
-  padding: "10px",
+  backgroundColor: "#3D2F2F",
+  color: "#C0A392",
+  padding: "5px",
+  paddingLeft: "10px",
   fontWeight: "bold",
   fontFamily: "Helvetica Neue",
 };
@@ -26,38 +27,38 @@ function Navbar() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div style={mystyle} className="collapse navbar-collapse" id="navbarNav">
-        <ul style={mystyle} className="navbar-nav">
-          <div>
-            <img
-              style={{ width: "120px", height: "130px", borderRadius: "50%" }}
-              src={bf}
-              alt="persons profile"
-              className="custom-img"
-            />
-          </div>
+        <div>
+          <img
+            style={{ width: "75px", height: "80px", borderRadius: "60%" }}
+            src={bf}
+            alt="persons profile"
+            className="custom-img"
+          />
+        </div>
+        <ul style={{mystyle, letterSpacing:"0.15rem"}} className="navbar-nav">
           <li className="nav-item">
             <a style={mystyle} className="nav-link" href="#home">
-              HOME <span className="sr-only"></span>
+              Home <span className="sr-only"></span>
             </a>
           </li>
           <li className="nav-item">
             <a style={mystyle} className="nav-link" href="#about">
-              ABOUT
+              About
             </a>
           </li>
           <li className="nav-item">
             <a style={mystyle} className="nav-link" href="#skills">
-              SKILLS
+              Skills
             </a>
           </li>
           <li className="nav-item">
             <a style={mystyle} className="nav-link" href="#work">
-              WORK
+              Work
             </a>
           </li>
           <li className="nav-item">
             <a style={mystyle} className="nav-link" href="#contact">
-              CONTACT
+              Contact
             </a>
           </li>
           <li className="nav-item">

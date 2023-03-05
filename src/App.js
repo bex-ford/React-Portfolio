@@ -5,12 +5,12 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 
-import './App.css'
-// import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import "./App.css";
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
-function App() { 
+function App() {
   return (
-    <div style={{backgroundColor: "#C0A392"}}>
+    <div style={{ backgroundColor: "#C0A392" }}>
       <Navbar />
       <Home />
       <About />

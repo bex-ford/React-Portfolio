@@ -10,13 +10,18 @@ const mystyle = {
 
 function Skills() {
   return (
-    <section style={mystyle} className="skills"  id="skills">
-      <h2 style={{ fontWeight: "bold", textAlign:"center", fontSize:"40px" }}>Skills</h2>
+    <section style={mystyle} className="skills" id="skills">
+      <h2 style={{ fontWeight: "bold", textAlign: "center", fontSize: "40px" }}>
+        Skills
+      </h2>
       <p style={{ fontSize: "20px", textAlign: "center" }}>
         I enjoy learning new things. Here's a list of technologies that i've
         worked with so far.
       </p>
-      <ul className="skills-images">
+      <ul
+        style={{ paddingLeft: "300px", paddingRight: "300px" }}
+        className="skills-images"
+      >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
           <path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z" />
         </svg>
