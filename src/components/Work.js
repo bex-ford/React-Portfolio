@@ -31,23 +31,23 @@ function Work() {
           style={{
             fontSize: "20px",
             textAlign: "center",
-            paddingLeft: "300px",
-            paddingRight: "300px",
+            paddingLeft: "100px",
+            paddingRight: "100px",
           }}
           className="card-title"
         >
           JustVeggie is a vegetarian, gluten-free application created for users
           with these specific needs. I worked on this application with another
           bootcamp student to create this website. It allows users who are
-          vegetarian with a gluten intolerance to view recipes.
+          vegetarian with a gluten intolerance to view recipes. Please click on
+          the image below to take you to this application.
         </h5>
         <a href="https://bex-ford.github.io/project-1/">
           <img
             style={{
-              width: "50%",
-              height: "50%",
-              marginLeft: "350px",
-              marginRight: "350px",
+              width: "70%",
+              height: "70%",
+              marginLeft: "150px",
             }}
             src={justveggie}
             className="card-img-top custom-card-img"

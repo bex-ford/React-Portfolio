@@ -11,7 +11,7 @@ h2, h5 {
 .card-deck .work-links {
   background-color: #3D2F2F;
   color: #e5D3B3;
-  padding: 20px;
+  padding: 10px;
   padding-right: 50px;
   padding-left: 50px;
   border-radius: 5px;
@@ -24,7 +24,7 @@ h2, h5 {
 }
 
 .card-deck .btn-group {
-  margin-left: 44%;
+  margin-left: 41%;
   background-color: #3D2F2F;
 }
 

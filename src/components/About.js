@@ -19,8 +19,8 @@ function About() {
           style={{
             fontSize: "20px",
             textAlign: "center",
-            paddingLeft: "300px",
-            paddingRight: "300px",
+            paddingLeft: "100px",
+            paddingRight: "100px",
           }}
         >
           Hey. It's nice to meet you! I am currently learning front end web

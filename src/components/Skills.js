@@ -19,7 +19,7 @@ function Skills() {
         worked with so far.
       </p>
       <ul
-        style={{ paddingLeft: "300px", paddingRight: "300px" }}
+        style={{ paddingLeft: "20px", paddingRight: "20px" }}
         className="skills-images"
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
