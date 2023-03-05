@@ -15,10 +15,11 @@ function About() {
       <div>
         <p style={{ fontSize: "20px", textAlign: "center" }}>
           Hey. It's nice to meet you! I am currently learning front end web
-          development with skills for life bootcamp. I love learning new skills
+          development with edX skills for life bootcamp. I love learning new skills
           and working with different technologies like React, JavaScript and
-          CSS. If i'm not listening to audiobooks i'm listening to spotify.
+          CSS. If i'm not listening to audiobooks, i'm listening to spotify.
         </p>
+        <hr></hr>
       </div>
     </div>
   );
