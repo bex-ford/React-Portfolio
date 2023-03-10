@@ -3,7 +3,8 @@ import React from "react";
 const mystyle = {
   backgroundColor: "#C0A392",
   color: "#3D2F2F",
-  padding: "200px",
+  marginTop: "105px",
+  marginBottom: "105px",
 };
 function Home() {
   return (

@@ -18,15 +18,15 @@ function Navbar() {
       <button
         className="navbar-toggler"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
         aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div style={mystyle} className="collapse navbar-collapse" id="navbarNav">
+      <div  className="collapse navbar-collapse" id="navbarNav">
         <div>
           <img
             style={{ width: "75px", height: "80px", borderRadius: "60%" }}
