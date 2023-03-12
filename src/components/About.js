@@ -3,8 +3,6 @@ import React from "react";
 const mystyle = {
   backgroundColor: "#C0A392",
   color: "#3D2F2F",
-  // paddingLeft: "250px",
-  // paddingRight: "250px",
   fontFamily: "Helvetica Neue",
 };
 
@@ -20,8 +18,6 @@ function About() {
             style={{
               fontSize: "20px",
               textAlign: "center",
-              // paddingLeft: "100px",
-              // paddingRight: "100px",
             }}
           >
             Hey. It's nice to meet you! I am currently learning front end web

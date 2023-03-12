@@ -1,6 +1,6 @@
 import React from "react";
 import bf from "../assets/bf.jpg";
-import cv from "../assets/cv.pdf";
+import cv from "../assets/BexCV.pdf";
 
 
 const mystyle = {
